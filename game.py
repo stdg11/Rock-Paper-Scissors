@@ -27,5 +27,5 @@ elif (player == "scissors"):
     else:
         print("You Win!")
 
-print("You chose:" + player + "\nComputer picked: " + computer + "\n Thank you for playing!")
+print("You chose: %s\nComputer picked: %s\n Thank you for playing!" % (player, computer))
 input("Press any key to exit.")
